@@ -44,9 +44,11 @@ $hasblocks = strpos($blockshtml, 'data-block=') !== false;
 $blockshtmla = $OUTPUT->blocks('fp-a');
 $blockshtmlb = $OUTPUT->blocks('fp-b');
 $blockshtmlc = $OUTPUT->blocks('fp-c');
+$blockshtmld = $OUTPUT->blocks('fp-d');
 $checkblocka = strpos($blockshtmla, 'data-block=') !== false;
 $checkblockb = strpos($blockshtmlb, 'data-block=') !== false;
 $checkblockc = strpos($blockshtmlc, 'data-block=') !== false;
+$checkblockd = strpos($blockshtmld, 'data-block=') !== false;
 $hasfpblockregion = ($PAGE->theme->settings->blockdisplay == 1) !== false;
 
 $hasactivitynav = ($PAGE->theme->settings->showactivitynav ==1) !== false;
@@ -65,6 +67,7 @@ $templatecontext = [
     'fpablocks' => $blockshtmla,
     'fpbblocks' => $blockshtmlb,
     'fpcblocks' => $blockshtmlc,
+    'fpdblocks' => $blockshtmld,
     'hasblocks' => $hasblocks,
     'hascourseblocks' => $hascourseblocks,
     'hasfpblockregion' => $hasfpblockregion,

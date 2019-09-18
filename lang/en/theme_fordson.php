@@ -43,6 +43,7 @@ $string['navdrawerbtn'] = 'Navigation';
 $string['region-fp-a'] = 'Column A';
 $string['region-fp-b'] = 'Column B';
 $string['region-fp-c'] = 'Column C';
+$string['region-fp-d'] = 'Column D';
 $string['courseblockpanelbtn'] = 'Course Blocks';
 $string['courseblockpanelbtnclose'] = 'Close';
 $string['showblockregions'] = 'Show Additional Frontpage Block Regions';
